@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-redax-basic/static/css/main.e7d7b478.css",
+    "main.js": "/React-redax-basic/static/js/main.8c86968b.js",
+    "index.html": "/React-redax-basic/index.html",
+    "main.e7d7b478.css.map": "/React-redax-basic/static/css/main.e7d7b478.css.map",
+    "main.8c86968b.js.map": "/React-redax-basic/static/js/main.8c86968b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7d7b478.css",
+    "static/js/main.8c86968b.js"
+  ]
+}

@@ -18,32 +18,32 @@ export function createPost(id, text, image, photo, name, nickname){
     }
 }
 
-export function changeStateLikes(id, likes){
+export function changeStateLikes(id, liked){
     return {
         type: INC_DEC_LIKES,
         payload: {
             id,
-            likes,
+            liked,
         }
     }
 }
 
-export function changeStateComments(id, comment){
+export function changeStateComments(id, commnted){
     return {
         type: INC_DEC_COMENTS,
         payload: {
             id,
-            comment,
+            commnted,
         }
     }
 }
 
-export function changeStateReposts(id, reposts){
+export function changeStateReposts(id, reposted){
     return {
         type: INC_DEC_REPOST,
         payload: {
             id,
-            reposts,
+            reposted,
         }
     }
 }

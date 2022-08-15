@@ -34,19 +34,17 @@ const PostsF = ({ post }) => {
   const [shared, setShared] = useState(false);
   const [hidecontent, setHidecontent] = useState(false);
 
-  const id = post.id;
-
   const handleChangeLikes = () => {
     setLiked(!liked);
-    dispatch(changeStateLikes(id, liked));
+    dispatch(changeStateLikes(post.id, liked));
   };
   const handleChangeComments = () => {
     setComented(!commnted);
-    dispatch(changeStateComments(id, commnted));
+    dispatch(changeStateComments(post.id, commnted));
   };
   const handleChangeReposts = () => {
     setReposted(!reposted);
-    dispatch(changeStateReposts(id, reposted));
+    dispatch(changeStateReposts(post.id, reposted));
   };
   const handleChangeShare = () => {
     setShared(!shared);
@@ -79,7 +77,7 @@ const PostsF = ({ post }) => {
           </div>
           <div className="content-footer-icons">
             <div
-              className={commnted ? "comment-icon-active" : "comment-icon"}
+              className={ commnted ? "comment-icon-active" : "comment-icon"}
               onClick={handleChangeComments}
             >
               <FontAwesomeIcon icon={faComment}></FontAwesomeIcon>

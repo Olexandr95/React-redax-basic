@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./form.scss";
+import { v4 as uuid } from 'uuid';
 import { createPost } from "../../redax/actions";
 import { useSelector, useDispatch } from "react-redux";
 import { postsSelector, usersSelector } from "../../redax/postsRuducer";
@@ -11,7 +12,7 @@ const PostForm = () => {
 
   const posts = useSelector(postsSelector);
   const users = useSelector(usersSelector);
-  const id = Date.now().toString();
+  const id = uuid();
   const { Obi_Wan_Kenobi, Anakin_Skywalker } = users;
 
   const dispatch = useDispatch();
@@ -28,6 +29,7 @@ const PostForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    //if(!inputContent.trim()) return
 
     if (selectUser === "Obi_Wan_Kenobi") {
       dispatch(

@@ -1,13 +1,11 @@
 import React from "react";
-import "./post-scss.scss";
+import "./users-scss.scss";
 import { useState } from "react";
-import MapPosts from "./addNewPost/mapPost";
-import PostForm from './addNewPost/postForm';
 import Header from "../Header/header";
-//import MapUsers from "../addNewUser/mapUsers";
-//import UserForm from "../addNewUser/userForm";
+import MapUsers from "./addNewUser/mapUsers";
+import UserForm from "./addNewUser/userForm";
 
-const Posts = () => {
+const Users = () => {
   const [isActive, setActive] = useState(false);
   const toggleClass = () => {
     setActive(!isActive);
@@ -17,16 +15,16 @@ const Posts = () => {
       <Header />
         <div className="post-btn">
           <button className="post-new-btn hide" onClick={toggleClass}>
-            {!isActive ? "+add New Post" : "Cloose Form"}
+            {!isActive ? "+add New User" : "Cloose Form"}
           </button>
         </div>
         <div className={isActive ? "show" : "hide"}>
-          <PostForm />
+          <UserForm />
         </div>
-        <MapPosts />
+        <MapUsers />
         
         </>
   )
 };
 
-export default Posts;
+export default Users;

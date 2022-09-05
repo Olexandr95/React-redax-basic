@@ -1,0 +1,35 @@
+.post-new-btn {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 1px solid #fff;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+}
+.post-new-btn:hover {
+  transform: scale(1.2);
+}
+.conteiner-user {
+  margin-top: 20px;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  color: #fff;
+  width: 700px;
+  margin: 0 auto;
+  border: #fff 1px solid;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white{
+  color: #fff
+}

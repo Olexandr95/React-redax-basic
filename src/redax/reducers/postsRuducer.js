@@ -3,7 +3,7 @@ import {
   INC_DEC_COMENTS,
   INC_DEC_LIKES,
   INC_DEC_REPOST,
-} from "./types";
+} from "../types/postTypes";
 
 const initualState = {
   users: {

@@ -138,7 +138,7 @@ export const SignUp = () => {
             </CheckBoxDiv>
             <Button onClick={submitHendler}>Sign Up</Button>
             <DivFlexEnd>
-              <StyledLink to="/">Already have an account? Sign in</StyledLink>
+              <StyledLink to="/signin">Already have an account? Sign in</StyledLink>
             </DivFlexEnd>
             <PrimaryText>Copyright © Your Website 2022.</PrimaryText>
           </FormDiv>

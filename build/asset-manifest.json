@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FinalTaskCursor/static/css/main.cde90045.css",
-    "main.js": "/FinalTaskCursor/static/js/main.17f0c59f.js",
-    "index.html": "/FinalTaskCursor/index.html",
-    "main.cde90045.css.map": "/FinalTaskCursor/static/css/main.cde90045.css.map",
-    "main.17f0c59f.js.map": "/FinalTaskCursor/static/js/main.17f0c59f.js.map"
+    "main.css": "/React-redax-basic/static/css/main.cde90045.css",
+    "main.js": "/React-redax-basic/static/js/main.2e6e31db.js",
+    "index.html": "/React-redax-basic/index.html",
+    "main.cde90045.css.map": "/React-redax-basic/static/css/main.cde90045.css.map",
+    "main.2e6e31db.js.map": "/React-redax-basic/static/js/main.2e6e31db.js.map"
   },
   "entrypoints": [
     "static/css/main.cde90045.css",
-    "static/js/main.17f0c59f.js"
+    "static/js/main.2e6e31db.js"
   ]
 }
